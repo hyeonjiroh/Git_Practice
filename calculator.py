@@ -14,7 +14,7 @@ def divide_new(a, b):
 def getMedian(a, b):
     return (a+b)/2
 
-def getRemainder(a, b):
+def get_Remainder(a, b):
     return a//b
 
 def get_Abs(num):
@@ -22,3 +22,6 @@ def get_Abs(num):
       return num
    else:
       return -num
+
+def getPercent(a, b):
+    return (a/b) * 100
